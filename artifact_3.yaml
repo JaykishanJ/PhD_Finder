@@ -1,0 +1,85 @@
+position_keywords:
+  - phd
+  - doctoral
+  - doctoral researcher
+  - doctoral candidate
+  - studentship
+  - early stage researcher
+  - esr
+  - graduate researcher
+  - jrf
+  - research assistant
+  - fellowship
+
+priority_areas:
+  - multi-omics data analysis
+  - multi-omics
+  - integrative omics
+  - bioinformatics
+  - computational biology
+  - genomics
+  - functional genomics
+  - cancer genomics
+  - population genomics
+  - human genetics
+  - statistical genetics
+  - immunogenomics
+  - single-cell
+  - single cell
+  - spatial transcriptomics
+  - rna-seq
+  - rnaseq
+  - scrna-seq
+  - scRNA-seq
+  - atac-seq
+  - chip-seq
+  - epigenomics
+  - metagenomics
+  - microbiome
+  - proteomics
+  - metabolomics
+  - machine learning
+  - deep learning
+  - artificial intelligence
+  - precision medicine
+  - low-pass sequencing
+  - genotype imputation
+  - polygenic risk score
+
+negative_keywords:
+  - postdoc
+  - post-doctoral
+  - postdoctoral
+  - professor
+  - lecturer
+  - internship
+  - seminar
+  - conference
+  - workshop
+  - news
+  - press release
+  - expired
+  - closed
+  - no longer accepting
+  - faculty position
+  - sales
+  - manager
+
+follow_terms:
+  - phd
+  - doctoral
+  - studentship
+  - career
+  - careers
+  - job
+  - jobs
+  - vacancy
+  - vacancies
+  - position
+  - fellowship
+  - recruitment
+  - opportunity
+  - graduate
+  - researcher
+  - apply
+  - openings

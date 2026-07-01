@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+vacancies.sqlite
+*.csv
+daily_report.html
+daily_report.md
+crawler.log
+backups/
