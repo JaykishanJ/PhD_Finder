@@ -164,7 +164,7 @@ def load_seeds():
     data = load_json(SEEDS_FILE, {})
     if isinstance(data, dict):
         seeds = []
-        for k in ["high_priority", "europe", "usa", "canada", "australia", "asia", "india", "other"]:
+        for k in ["high_priority", "europe", "usa", "canada", "australia", "asia", "india", "other", "social_and_aggregators"]:
             seeds.extend(data.get(k, []))
         return sorted(set(seeds))
     if isinstance(data, list):
@@ -686,6 +686,8 @@ def filter_seeds_by_region(seeds, region):
         elif r == "asia" and any(x in d for x in [".sg", ".jp"]):
             out.append(s)
         elif r == "india" and any(x in d for x in [".in"]):
+            out.append(s)
+        elif any(x in d for x in ["nitter", "linkedin", "owlindex"]):
             out.append(s)
     return sorted(set(out)) if out else seeds
 
